@@ -1,0 +1,34 @@
+7/03/2017 Ver 1.4
+-----------------------------
+- Added link on Book Now button
+- Added links to navigation buttons
+- Changed Mobile Orientation Of Logo / Explore button on homepage
+
+6/03/2017 Ver 1.3 (Uploaded)
+-----------------------------
+- Added Scroll In Package Navigation
+- Added Instamojo link on Pehchaan India
+
+5/03/2017 Ver 1.2 (Uploaded)
+-----------------------------
+- Spelling Changes
+- Added White Logo In Front
+- Blinking Animation Added With Keyframes
+- Navigation Padding Removed
+
+
+5/03/2017 Ver 1.1 (Uploaded)
+-----------------------------
+- Facebook Meta Added
+- Navigation Home Link Added
+- Added FB meta call function on homepage
+- Google Analytics Code
+
+5/03/2017 Ver 1.0 (Uploaded)
+-----------------------------
+- Removed FadeOnScroll JQuery for faster performances
+- Made module, h5 opacity back to '1'
+- Added padding to bottom navigation on module pages
+- Created a different file for bottom-module-navigation.php and added include in packages page
+- Changed Number Of Contact In CTA Button to Sanjay Sood (Hotel Vintage) - +919811137247
+- Added tel:+919811137247 to the CTA Button

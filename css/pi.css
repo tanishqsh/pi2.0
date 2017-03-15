@@ -1,0 +1,567 @@
+body, html{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    outline: none;
+    background: #FFF;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #1976D2;
+    background: #1976D2;
+}
+
+::selection {
+    color: #ededed;
+    background: rgba(0,0,0,0.2);
+}
+
+
+h5{
+    font-family: 'Lobster', cursive;
+    color: #D32F2F !important;
+}
+
+.container-fluid{
+    margin: 0;
+    padding:0;
+}
+
+.pehchaanText
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.homeScreen{
+    background: url("../pi2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    box-shadow: 0 1px 10px 1px;
+    border-bottom: 1px solid #383838;
+}
+
+
+.navbar{
+    background: #383838;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+    font-weight: bold;
+    padding: 1.39vw;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar a{
+    color: #FFF !important;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-size:15px;
+    letter-spacing: 0.3em;
+}
+
+.navPills a{
+    font-size: x-small;
+    opacity:1;
+    transition: all 0.4s linear;
+}
+
+
+.section
+{
+    padding-top:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 60vh;
+    font-family: 'Poppins', sans-serif;
+    color:#383838;
+    background: #FFF;
+}
+
+.section h5{
+    font-size: 6vh;
+    background: linear-gradient(to left, #4568DC , #B06AB3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: -webkit-linear-gradient(to left, #4568DC , #B06AB3); /* Chrome 10-25, Safari 5.1-6 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:10px;
+    margin-bottom:0.5vh;
+}
+
+.navPills a.ctabutton{
+    border-radius: 5px;
+    color: #181818;
+    border: 1px solid #ededed;
+}
+
+/* Modules */
+
+.goodH2
+{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+
+    transition: all 0.4s ease;
+}
+
+.goodH2:hover
+{
+    transition: all 0.4s ease;
+}
+
+.pillContainer
+{
+    padding: 10px;
+}
+
+.pillHead
+{
+    font-weight: bold;
+    color: #222222 !important;
+    font-size: 70px;
+}
+
+.pillSubtitle
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.pillText
+{
+    font-size: 14px;
+    text-transform: none;
+    color: #323232;
+
+}
+
+/* Module End */
+
+.goodH1
+{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff !important;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+
+.bigFrontText
+{
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    position: absolute;
+    margin-left:0px;
+    margin-top:100px;
+    font-weight: bold;
+
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+
+}
+
+
+.discoverButton
+{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #181818 !important;
+    background: #ededed;
+    border: 1px solid #ededed;
+    transition: all 0.4s ease;
+}
+
+.discoverButton:hover
+{
+    padding: 20px;
+    color: #181818 !important;
+    background:#ededed;
+    border: 1px solid #ededed;
+    transition: all 0.4s linear;
+}
+
+.navHightlightButton
+{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ededed !important;
+    background: #D32F2F;
+    border: 1px solid transparent;
+    transition: all 0.4s linear;
+}
+
+
+.navHightlightButton:hover
+{
+    border: 1px solid #ededed;
+    background: transparent;
+    color: #ededed !important;
+    transition: all 0.4s ease;
+}
+
+.twitterColor
+{
+    color: #FF5722!important;
+    letter-spacing: 4px;
+    transition: all 0.4s ease;
+}
+
+.twitterColor:hover
+{
+    font-size: 10px;
+    transition: all 0.4s ease;
+}
+
+.FacebookColor
+{
+    color: #3b5998 !important;
+    letter-spacing: 4px !important;
+    transition: all 0.4s ease;
+}
+
+.FacebookColor:hover
+{
+    font-size: 10px;
+    transition: all 0.4s ease;
+}
+
+.LinkedInColor
+{
+    color: #0077b5 !important;
+    letter-spacing: 4px !important;
+    transition: all 0.4s ease;
+}
+
+.LinkedInColor:hover
+{
+    font-size: 10px;
+    transition: all 0.4s ease;
+}
+
+.InstagramColor
+{
+    color: #5851db !important;
+    letter-spacing: 4px !important;
+    transition: all 0.4s ease;
+}
+
+.InstagramColor:hover
+{
+    font-size: 10px;
+    transition: all 0.4s ease;
+}
+
+.blackOverlay{
+    background: rgba(0,0,0,0.85);
+    width: 100%;
+    height: 100%;
+}
+
+#videoBlur{
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.glyphicon.glyphicon-chevron-down.dropCap:focus
+{
+    background-color: transparent;
+}
+.glyphicon.glyphicon-chevron-down.dropCap:hover
+{
+    background-color: transparent;
+}
+
+
+.dropCap
+{
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    padding: 10px;
+    color: #f7f7f7 !important;
+}
+
+.dropCap:hover
+{
+    background-color: transparent !important;
+}
+
+.homeMods{
+    position: absolute;
+    bottom:0;
+    margin-left:100px;
+    margin-right:100px;
+    border-top:1px solid #fff;
+    left:0;
+    right:0;
+}
+
+.homeMods div.col-sm-3{
+    border-left: 0px solid rgba(255,255,255,0.1);
+    border-right: 0px solid rgba(255,255,255,0.1);
+    padding: 30px;
+    background: rgba(255,255,255,0);
+
+    -webkit-transition:all linear 0.1s;
+    -moz-transition: all linear 0.1s;
+    -ms-transition: all linear 0.1s;
+    -o-transition: all linear 0.1s;
+    transition: all linear 0.1s;
+}
+
+.homeMods div.col-sm-3:hover{
+    border-top: 3px solid #ededed;
+    -webkit-transition:all linear 0.1s;
+    -moz-transition:all linear 0.1s;
+    -ms-transition:all linear 0.1s;
+    -o-transition:all linear 0.1s;
+    transition:all linear 0.1s;
+}
+
+/* Mobile Mods */
+
+.MobMods{
+    display: none;
+    position: absolute;
+    bottom:0;
+    margin-left:20px;
+    margin-right:20px;
+    left:0;
+    font-size: 10px;
+    right:0;
+}
+
+.MobMods div.col-sm-3{
+    border-left: 0px solid rgba(255,255,255,0.1);
+    border-right: 0px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    background: rgba(255,255,255,0);
+
+    transition: all 0.4s ease;
+}
+
+.MobMods div.col-sm-3:hover{
+    border-top: 3px solid #ededed;
+}
+
+.MobMods p{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6px;
+    letter-spacing: 2px;
+
+    transition: all 0.4s ease;
+}
+
+
+/* Footer CSS */
+
+.pehchaanIndiaFooter{
+    padding-top:50px;
+    z-index:0;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.pehchaanIndiaFooter h3
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.pehchaanIndiaFooter p{
+    font-size:10px;
+    letter-spacing:2px;
+    color:#ededed;
+}
+
+.copyrightBar{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #ededed;
+    border-top: 1px solid #ededed;
+    margin-left:100px;
+    margin-right:100px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    left:0px;
+    padding:20px;
+    text-align: right !important;
+}
+
+.connectWithUs{
+}
+
+.PISearchBox{
+    margin-top:50px;
+    border:none;
+    outline:none;
+    padding:10px;
+    padding-left:30px;
+    border-radius: 50px;
+    width:40%;
+    color: #383838;
+    background: rgba(255,255,255,0.4);
+    -webkit-transition: all 2s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.PISearchBox:focus{
+    border:none;
+    outline:none;
+    background: rgba(255,255,255,0.9);
+
+}
+/* Footer CSS Ends */
+
+/* The Package Modules */
+
+.titleText
+{
+    padding: 10px;
+    font-size: 12px;
+    background:#f7f7f7;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.holidayModule{
+    background: url("../pi2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+    height:10vh;
+    min-height: 40vh;
+    cursor: move !important;
+    max-height:40vh;
+    z-index:100;
+    position: relative;
+    margin-bottom:15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+.holidayOver{
+    background: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
+    height:100%;
+    z-index: 99;
+    width:100%;
+    border-radius: 5px;
+}
+
+.insideHolidayTitle{
+    position: absolute;
+    bottom:0;
+    top:0;
+    letter-spacing:3px;
+    font-weight: bold;
+    font-size: 14px;
+    left:0;
+    margin-left:50px;
+    margin-top:50%;
+    z-index:98;
+    color: rgba(255,255,255,0.7);
+}
+
+.holidayModule:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.bottom-Checkout
+{
+    background: rgba(211, 47, 47, 0.95);
+    padding: 0.55vw;
+    text-align: center;
+    display: inline-block;
+    float:none;
+}
+
+.bulletClass{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.16);
+    border-radius: 10px;
+
+
+}
+
+.bulletClass:nth-child(2n){
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background: #D32F2F;
+    color: #ededed;
+    border-radius: 10px;
+}
+
+.hideOnDesktop
+{
+    display: none;
+}
+
+.hoverButton
+{
+    position: absolute;
+    right:30px;
+    bottom:80px;
+    position: fixed;
+}
+
+.inactive
+{
+    display:none !important;
+}
+
+.whitespace{
+    height:4vh;
+}
+
+.frontImage{
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    50%  {
+        opacity:0.5;
+    }
+}
